@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Instrumento</title>
+</head>
+<body>
+    <h1>Adicionar Instrumento</h1>
+
+    <form method="post" action="/instrumento/add/ok">
+        Nome:
+        <input type="text" name="nome"><br>
+
+        Fabricante:
+        <input type="text" name="fabricante"><br>
+
+        Preço:
+        <input type="number" name="preco"><br>
+
+        Tipo:
+        <input type="text" name="tipo"><br>
+
+        <input type="submit" value="Salvar">
+    </form>
+
+    <p><a href="/instrumento/lst">Voltar para lista</a></p>
+</body>
+</html>
